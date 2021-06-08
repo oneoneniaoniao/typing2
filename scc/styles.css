@@ -1,4 +1,24 @@
+body {
+  background:rgb(255, 253, 249)
+}
+
+p {
+  text-align: center;
+}
+
+#point {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 50px;
+  display: inline-block;
+  text-align: center;
+  /* margin-left: calc((100% - 200px) / 2); */
+}
+
 #text {
+  top: 30px;
   font-size: 4em;
   font-weight: bold;
   color: #666;
@@ -13,4 +33,33 @@ span {
 .add_blue {
   color: #ccc;
   top: 10px;
+}
+
+div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  width: 100px;
+  display: inline-block;
+  padding: 10px;
+  background: pink;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid rgb(221, 129, 129);
+  box-shadow: 0 3px 0 rgba(221, 129, 129,1);
+  color:#666;
+  position: relative;
+  font-weight: bold;
+}
+
+a:hover {
+  background: rgb(238, 138, 138);
+}
+
+a:active {
+top: 3px;
+box-shadow: none;
 }
